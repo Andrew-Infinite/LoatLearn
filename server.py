@@ -1,5 +1,5 @@
 from flask import Flask,render_template, send_file
-from flask_socketio import SocketIO
+from flask_socketio import SocketIO, emit
 import time
 import func
 
@@ -23,6 +23,10 @@ def handle_disconnect():
 def handle_request_data():
     global label
     func.send_image(socketio,label)
+
+@socketio.on('message')
+def handle_message(message):
+    emit('message', message, broadcast=True)
 
 if __name__ == '__main__':
     socketio.run(app, debug=True)

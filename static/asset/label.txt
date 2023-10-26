@@ -3,3 +3,16 @@ dog(f),dog.jpg,dog(female).mp3,perra (female)
 cat(m),cat.jpg,cat(male).mp3,gato(male)
 cat(f),cat.jpg,cat(female).mp3,gata(female)
 accordion,accordion.jpg,accordion.mp3,acordeón
+adjustable wrench,adjustable wrench.jpg,adjustable wrench.mp3,llave ajustable
+airplane,airplane.jpg,airplane.mp3,avión
+alfalfa sprouts,alfalfa sprouts.jpg,alfalfa sprouts.mp3,brotes de alfalfa
+almonds,almonds.jpg,almonds.mp3,Almendras
+ambulance,ambulance.jpg,ambulance.mp3,ambulancia
+antelope,antelope.jpg,antelope.mp3,antílope
+apple juice,apple juice.jpg,apple juice.mp3,jugo de manzana
+apples,apples.jpg,apples.mp3,manzana
+armchair,armchair.jpg,armchair.mp3,sillón
+artichoke,artichoke.jpg,artichoke.mp3,alcachofa
+asparagus,asparagus.jpg,asparagus.mp3,espárragos
+avocados,avocados.jpg,avocados.mp3,aguacates
+ax,ax.jpg,ax.mp3,hacha
