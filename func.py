@@ -26,7 +26,7 @@ def send_image(socketio,label):
 
 def csv_reader():
     data = dict()
-    with open(label_path, 'r') as file:
+    with open(label_path, 'r', encoding='utf-8') as file:
         csv_reader = csv.reader(file)
         for row in csv_reader:
             title,imagefilename, audiofilename, spanish = row
