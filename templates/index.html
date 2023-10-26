@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>(FANCY NAME NEEDED)</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div id="start_page" class="container">
+        <button onclick="start()">Start</button>
+    </div>
+
+    <div id="count_page" class="container" style="display: none;">
+        <h1 id="count_down"></h1>
+    </div>
+
+    <div id="train_page" class="container" style="display: none;">
+        <img src="" class="image" alt="image" id="Output_Image"/>
+        <div class="text" id="Output_Text">
+            <h1></h1>
+        </div>
+    </div>
+
+    <div id="train_done_page" class="container" style="display: none;">
+        <button onclick="mode_validate()">Start_Validate</button>
+    </div>
+
+    <div id="valid_page" class="container" style="display: none;">
+        <img src="" class="image" alt="image" id="Output_Image2"/>
+        <button type="button" id="btn1"></button>
+        <button type="button" id="btn2"></button>
+        <button type="button" id="btn3"></button>
+    </div>
+    
+    <div id="result_page" class="container" style="display: none;">
+        <button onclick="start()">Retry</button>
+    </div>
+
+
+</body>
+
+<script src="{{ url_for('static', filename='script/main.js') }}"></script>
+
+</html>

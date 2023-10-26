@@ -1,0 +1,4 @@
+dog(m),dog.jpg,dog(male).mp3,perro (male)
+dog(f),dog.jpg,dog(female).mp3,perra (female)
+cat(m),cat.jpg,cat(male).mp3,gato(male)
+cat(f),cat.jpg,cat(female).mp3,gata(female)
