@@ -29,7 +29,7 @@ function start() {
 function mode_training(){
     document.getElementById("count_page").style.display = "none";
     document.getElementById("train_page").style.display = "block";
-    Data_Output_Train(3,500,() => {
+    Data_Output_Train(4,500,() => {
             document.getElementById("train_page").style.display = "none";
             document.getElementById("train_done_page").style.display = "block";
         },
@@ -43,7 +43,7 @@ function mode_validate(){
     document.getElementById("train_done_page").style.display = "none";
     document.getElementById("valid_page").style.display = "block";
     document.getElementById("result_page").style.display = "none";
-    Data_Output_Validation(3,1000,()=>{
+    Data_Output_Validation(4,1000,()=>{
         document.getElementById("valid_page").style.display = "none";
         document.getElementById("result_page").style.display = "block";
     });
