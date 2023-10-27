@@ -36,7 +36,8 @@ function start() {
 function mode_training(){
     document.getElementById("count_page").style.display = "none";
     document.getElementById("train_page").style.display = "block";
-    Data_Train_Word(data_output.get("data_len")[0],data_output.get("interval")[0],() => {
+    //Data_Train_Word(data_output.get("data_len")[0],data_output.get("interval")[0],() => {
+    Data_Train_Word(1,data_output.get("interval")[0],() => {
             document.getElementById("train_page").style.display = "none";
             document.getElementById("train_done_page").style.display = "block";
         },
@@ -110,8 +111,8 @@ function Data_Output_Validation(index){
     }
     document.getElementById('Output_Image2').src = `data:image/jpeg;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(data_output.get("training")[data_output.get("data_len")[0]-index].image)))}`;
     document.getElementById('btn1').innerText  = data_output.get("validation")[data_output.get("data_len")[0]-index][0];
-    document.getElementById('btn2').innerText  = 1;//data_output.get("validation")[data_output.get("data_len")[0]-index][1];
-    document.getElementById('btn3').innerText  = 2;//data_output.get("validation")[data_output.get("data_len")[0]-index][2];
+    document.getElementById('btn2').innerText  = data_output.get("validation")[data_output.get("data_len")[0]-index][1];
+    document.getElementById('btn3').innerText  = data_output.get("validation")[data_output.get("data_len")[0]-index][2];
 }
 
 function answer_selection(whoami){
