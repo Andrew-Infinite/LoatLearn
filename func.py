@@ -18,6 +18,7 @@ def send_image(socketio,label):
 
     socketio.emit('receive_data', {'key': 'interval','value':500})
     socketio.emit('receive_data', {'key': 'data_len','value':(len(train_obj)-1)})
+    # socketio.emit('receive_data', {'key': 'data_len','value':10})
 
     for data in train_obj:
         with open(asset_path + data['image'], 'rb') as image, open (asset_path + data['audio'],'rb') as audio:

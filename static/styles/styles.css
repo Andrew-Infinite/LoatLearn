@@ -14,3 +14,11 @@
     margin-top: 0px;
     font-size: 60px;
 }
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* height: 5vh; Optional, for vertical centering within the viewport */
+    border: 1px solid black;
+}

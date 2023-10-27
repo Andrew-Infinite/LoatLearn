@@ -6,6 +6,7 @@ const socket = io();
 const data_output = new Map();
 let ans = [];
 let index2 = 0;
+let trial = 0;
 
 socket.on('connect', () => {
     console.log('Connected to the server');
@@ -127,10 +128,17 @@ function answer_selection(whoami){
 }
 
 function Display_Result(answer_list){
+    trial = trial + 1;
     const container_div = document.getElementById('result_table');
     const container = document.createElement('table');
-    // container.setAttribute('style', 'border: 1;');
-    container.style.border = 1;
+    container.classList.add('table-container');
+    const result = document.createElement('div');
+    const attempt = document.createElement('div');
+    const hr = document.createElement('hr');
+    result.style.fontWeight = "900";
+    attempt.style.fontWeight = "900";
+    let total = answer_list.length;
+    let corrects = 0;
     container.setAttribute('id', 'result_table');
     let row = container.insertRow();
     let cell1 = row.insertCell(0);
@@ -153,11 +161,17 @@ function Display_Result(answer_list){
         if (answer[0] == answer[1])
         {
             cell4.innerHTML = 'RIGHT';
+            corrects = corrects + 1;
         }
         else
         {
             cell4.innerHTML = 'WRONG';
         }
     });
+    attempt.innerHTML = "My Attempt " + trial;
+    container_div.append(attempt);
+    result.innerHTML = "Your Result: " + corrects + "/" + total;
     container_div.append(container);
+    container_div.append(result);
+    container_div.append(hr);
 }
