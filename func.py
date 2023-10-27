@@ -1,7 +1,6 @@
 from flask import Flask,render_template
 from flask_socketio import SocketIO
 import csv
-from pydub import AudioSegment
 import base64
 import random
 
