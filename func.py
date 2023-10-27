@@ -3,6 +3,7 @@ from flask_socketio import SocketIO
 import csv
 from pydub import AudioSegment
 import base64
+import random
 
 asset_path = 'static/asset/'
 label_path = asset_path + 'label.txt'
@@ -50,5 +51,11 @@ def data_selector(label):
     for key,value in label.items():
         train_list.append(value)
     for key,value in label.items():
-        val_list.append([value['es'],value['es'],value['es']])
+        label.pop(key)
+        re = list(label.values())
+        random.shuffle(re)
+        options = [value['es'], re[0]['es'], re[1]['es']]
+        random.shuffle(options)
+        val_list.append(options)
+        label[key] = value
     return train_list,val_list
