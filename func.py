@@ -48,10 +48,11 @@ def data_selector(label):
     # a mix of words which user is not good with, or mix of words which general public is not good with.
     train_list = []
     val_list = []
-    count = 0
     for key,value in label.items():
         train_list.append(value)
     for key,value in label.items():
+        
+        count = 0
         re = list(label.values())
         options = [value['es']]
         random.shuffle(re)
@@ -61,7 +62,8 @@ def data_selector(label):
                 options.append(re[x]['es'])
             if count == 2:
                 break
-            
+        
+        print(options)
         random.shuffle(options)
         val_list.append(options)
     return train_list,val_list

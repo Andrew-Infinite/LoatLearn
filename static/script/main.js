@@ -36,8 +36,8 @@ function start() {
 function mode_training(){
     document.getElementById("count_page").style.display = "none";
     document.getElementById("train_page").style.display = "block";
-    //Data_Train_Word(data_output.get("data_len")[0],data_output.get("interval")[0],() => {
-    Data_Train_Word(1,data_output.get("interval")[0],() => {
+    Data_Train_Word(data_output.get("data_len")[0],data_output.get("interval")[0],() => {
+    //Data_Train_Word(1,data_output.get("interval")[0],() => {
             document.getElementById("train_page").style.display = "none";
             document.getElementById("train_done_page").style.display = "block";
         },
