@@ -116,11 +116,48 @@ function Data_Output_Validation(index){
 }
 
 function answer_selection(whoami){
-    ans.push(document.getElementById(whoami).innerText);
+    ans.push([data_output.get("training")[data_output.get("data_len")[0]-index2].word, document.getElementById(whoami).innerText]);
     index2 = index2 - 1;
     Data_Output_Validation(index2)
     if(index2 < 0){
         document.getElementById("valid_page").style.display = "none";
         document.getElementById("result_page").style.display = "block";
+        Display_Result(ans);
     }
+}
+
+function Display_Result(answer_list){
+    const container_div = document.getElementById('result_table');
+    const container = document.createElement('table');
+    // container.setAttribute('style', 'border: 1;');
+    container.style.border = 1;
+    container.setAttribute('id', 'result_table');
+    let row = container.insertRow();
+    let cell1 = row.insertCell(0);
+    let cell2 = row.insertCell(1);
+    let cell3 = row.insertCell(2);
+    let cell4 = row.insertCell(3);
+    cell1.innerHTML = "No.";
+    cell2.innerHTML = "Correct Answer";
+    cell3.innerHTML = "Your Answer";
+    cell4.innerHTML = "Result";
+    answer_list.forEach(function(answer) {
+        row = container.insertRow();
+        cell1 = row.insertCell(0);
+        cell2 = row.insertCell(1);
+        cell3 = row.insertCell(2);
+        cell4 = row.insertCell(3);
+        cell1.innerHTML = answer_list.indexOf(answer) + 1;
+        cell2.innerHTML = answer[0];
+        cell3.innerHTML = answer[1];
+        if (answer[0] == answer[1])
+        {
+            cell4.innerHTML = 'RIGHT';
+        }
+        else
+        {
+            cell4.innerHTML = 'WRONG';
+        }
+    });
+    container_div.append(container);
 }
