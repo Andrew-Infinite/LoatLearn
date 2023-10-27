@@ -16,6 +16,7 @@ socket.on('receive_data', (data) => {
     if(!data_output.has(data.key)){
         data_output.set(data.key,[]);
     }
+    console.log(data.value);
     data_output.get(data.key).push(data.value);
 });
 
@@ -37,7 +38,8 @@ function mode_training(){
             document.getElementById("train_done_page").style.display = "block";
         },
         document.getElementById('Output_Image'),
-        document.getElementById('Output_Text')
+        document.getElementById('Output_Text'),
+        document.getElementById('Output_Audio')
     );
 }
 function mode_validate(){
@@ -61,20 +63,23 @@ function Countdown(second, textbox, callbackfunc) {
     textbox.textContent = second.toString();
     setTimeout(function() {
         Countdown(second - 1,textbox,callbackfunc);
-    }, 300);
+    }, 1000);
 }
 
-function Data_Output_Train(index, interval, callbackfunc, image_box, textbox){
+function Data_Output_Train(index, interval, callbackfunc, image_box, textbox, audio){
     if(index < 0)
     {
         callbackfunc();
         return;
     }
-    image_box.src = `data:image/jpeg;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(data_output.get("training")[index].image)))}`;
-    textbox.textContent = data_output.get("training")[index].word;
+    image_box.src = `data:image/jpeg;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(data_output.get("training")[data_output.get("data_len")[0]-index].image)))}`;
+    textbox.textContent = data_output.get("training")[data_output.get("data_len")[0]-index].word;
+    audio.src = `data:audio/mpeg;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(data_output.get("training")[data_output.get("data_len")[0]-index].audio)))}`;
+    audio.currentTime = 0;
+    audio.play();
 
     setTimeout(function() {
-        Data_Output_Train(index-1, interval, callbackfunc,image_box, textbox)
+        Data_Output_Train(index-1, interval, callbackfunc,image_box, textbox, audio)
     }, interval);
 }
 
@@ -84,7 +89,7 @@ function Data_Output_Validation(index, interval, callbackfunc){
         callbackfunc();
         return;
     }
-    document.getElementById('Output_Image2').src = `data:image/jpeg;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(data_output.get("training")[index].image)))}`;
+    document.getElementById('Output_Image2').src = `data:image/jpeg;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(data_output.get("training")[data_output.get("data_len")[0]-index].image)))}`;
     document.getElementById('btn1').innerText  = data_output.get("validation")[index][0];
     document.getElementById('btn2').innerText  = data_output.get("validation")[index][1];
     document.getElementById('btn3').innerText  = data_output.get("validation")[index][2];

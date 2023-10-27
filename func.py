@@ -1,6 +1,8 @@
 from flask import Flask,render_template
 from flask_socketio import SocketIO
 import csv
+from pydub import AudioSegment
+import base64
 
 asset_path = 'static/asset/'
 label_path = asset_path + 'label.txt'
@@ -14,13 +16,17 @@ label_path = asset_path + 'label.txt'
 def send_image(socketio,label):
     train_obj, val_obj = data_selector(label)
 
-    socketio.emit('receive_data', {'key': 'interval','value':500})
+    socketio.emit('receive_data', {'key': 'interval','value':1000})
     socketio.emit('receive_data', {'key': 'data_len','value':(len(train_obj)-1)})
 
     for data in train_obj:
         with open(asset_path + data['image'], 'rb') as image, open (asset_path + data['audio'],'rb') as audio:
             image_data = image.read()
             audio_data = audio.read()
+            # audio2 = AudioSegment.from_file(asset_path + data['audio'])
+            # print(float(audio2.duration_seconds))
+            # audio2 = audio2.speedup(playback_speed=float(1 /audio2.duration_seconds))
+            # audio2 = audio2.export(format="mp3").read()
             socketio.emit('receive_data', {'key': "training", 'value':{'image': image_data, 'audio': audio_data,'word' : data['es']}})
     for data in val_obj:
         socketio.emit('receive_data', {'key': "validation", 'value' : data})
