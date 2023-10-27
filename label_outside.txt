@@ -1,0 +1,441 @@
+accordion,accordion.jpg,accordion.mp3,acordeón
+adjustable wrench,adjustable wrench.jpg,adjustable wrench.mp3,llave ajustable
+airplane,airplane.jpg,airplane.mp3,avión
+alfalfa sprouts,alfalfa sprouts.jpg,alfalfa sprouts.mp3,brotes de alfalfa
+almonds,almonds.jpg,almonds.mp3,Almendras
+ambulance,ambulance.jpg,ambulance.mp3,ambulancia
+antelope,antelope.jpg,antelope.mp3,antílope
+apple juice,apple juice.jpg,apple juice.mp3,jugo de manzana
+apples,apples.jpg,apples.mp3,manzana
+armchair,armchair.jpg,armchair.mp3,sillón
+artichoke,artichoke.jpg,artichoke.mp3,alcachofa
+asparagus,asparagus.jpg,asparagus.mp3,espárragos
+avocados,avocados.jpg,avocados.mp3,aguacates
+ax,ax.jpg,ax.mp3,hacha
+baboon,baboon.jpg,baboon.mp3,babuino
+bag,bag.jpg,bag.mp3,bolsa
+bagel,bagel.jpg,bagel.mp3,rosquilla
+baking pan,baking pan.jpg,baking pan.mp3,sartén
+balloon,balloon.jpg,balloon.mp3,globo
+bananas,bananas.jpg,bananas.mp3,plátanos
+baseball,baseball.jpg,baseball.mp3,béisbol
+baseball glove,baseball glove.jpg,baseball glove.mp3,guante de béisbol
+baseball player,baseball player.jpg,baseball player.mp3,jugador de baseball
+basket,basket.jpg,basket.mp3,cesta
+basketball,basketball.jpg,basketball.mp3,baloncesto
+basketball player,basketball player.jpg,basketball player.mp3,jugador de baloncesto
+bathtub,bathtub.jpg,bathtub.mp3,bañera
+beans,beans.jpg,beans.mp3,frijoles
+bear(female),bear(female).jpg,bear(female).mp3,osa
+bear(male),bear(male).jpg,bear(male).mp3,oso
+beaver,beaver.jpg,beaver.mp3,castor
+bed,bed.jpg,bed.mp3,cama
+bee,bee.jpg,bee.mp3,abeja
+beer,beer.jpg,beer.mp3,cerveza
+beetle,beetle.jpg,beetle.mp3,escarabajo
+belt,belt.jpg,belt.mp3,cinturón
+bicycle,bicycle.jpg,bicycle.mp3,bicicleta
+bicycle,bicycle.jpg,bicycle.mp3,bicicleta
+blackberries,blackberries.jpg,blackberries.mp3,moras
+blender,blender.jpg,blender.mp3,licuadora
+blimp,blimp.jpg,blimp.mp3,dirigible
+blouse,blouse.jpg,blouse.mp3,blusa
+boat,boat.jpg,boat.mp3,bote
+bobcat,bobcat.jpg,bobcat.mp3,gato montés
+bongos,bongos.jpg,bongos.mp3,bongos
+bottle,bottle.jpg,bottle.mp3,botella
+bow saw,bow saw.jpg,bow saw.mp3,Sierra de arco
+bowl,bowl.jpg,bowl.mp3,bol
+bowl,bowl.jpg,bowl.mp3,bol
+bowler,bowler.jpg,bowler.mp3,jugador de bolos
+bowling ball,bowling ball.jpg,bowling ball.mp3,bola de boliche
+bowling pins,bowling pins.jpg,bowling pins.mp3,alféizar de bolos
+box,box.jpg,box.mp3,caja
+box,box.jpg,box.mp3,caja
+boxer,boxer.jpg,boxer.mp3,Boxer
+boxing gloves,boxing gloves.jpg,boxing gloves.mp3,guantes de boxeo
+bread,bread.jpg,bread.mp3,pan
+broccoli,broccoli.jpg,broccoli.mp3,brócoli
+buck saw,buck saw.jpg,buck saw.mp3,sierra de bucle
+bull,bull.jpg,bull.mp3,toro
+bus,bus.jpg,bus.mp3,autobús
+butterfly,butterfly.jpg,butterfly.mp3,mariposa
+butternut squash,butternut squash.jpg,butternut squash.mp3,calabaza
+cabbage,cabbage.jpg,cabbage.mp3,repollo
+calculator,calculator.jpg,calculator.mp3,calculadora
+calf(female),calf(female).jpg,calf(female).mp3,becerra
+calf(male),calf(male).jpg,calf(male).mp3,becerro
+camel,camel.jpg,camel.mp3,camello
+can,can.jpg,can.mp3,poder
+can opener,can opener.jpg,can opener.mp3,abrelatas
+cantaloupe,cantaloupe.jpg,cantaloupe.mp3,Cantalupo
+canteen,canteen.jpg,canteen.mp3,cantina
+car,car.jpg,car.mp3,auto
+caribou,caribou.jpg,caribou.mp3,caribú
+carpool,carpool.jpg,carpool.mp3,Carpool
+carrot juice,carrot juice.jpg,carrot juice.mp3,jugo de zanahoria
+carrots,carrots.jpg,carrots.mp3,zanahorias
+carton,carton.jpg,carton.mp3,caja de cartón
+cat(female),cat(female).jpg,cat(female).mp3,gata
+cat(male),cat(male).jpg,cat(male).mp3,gato
+caterpillar,caterpillar.jpg,caterpillar.mp3,oruga
+cattle,cattle.jpg,cattle.mp3,ganado
+caulking gun,caulking gun.jpg,caulking gun.mp3,pistola de calafateo
+celery,celery.jpg,celery.mp3,apio
+centipede,centipede.jpg,centipede.mp3,ciempiés
+chain,chain.jpg,chain.mp3,cadena
+chainsaw,chainsaw.jpg,chainsaw.mp3,motosiería
+chair,chair.jpg,chair.mp3,silla
+champagne flute,champagne flute.jpg,champagne flute.mp3,Copa de champán
+cheese,cheese.jpg,cheese.mp3,queso
+cheeseburger,cheeseburger.jpg,cheeseburger.mp3,hamburguesa con queso
+chest,chest.jpg,chest.mp3,pecho
+chick(female),chick(female).jpg,chick(female).mp3,polluela
+chick(male),chick(male).jpg,chick(male).mp3,polluelo
+chicken,chicken.jpg,chicken.mp3,pollo
+chickens,chickens.jpg,chickens.mp3,gallinas
+chocolate,chocolate.jpg,chocolate.mp3,chocolate
+cicada,cicada.jpg,cicada.mp3,cigarra
+circular saw,circular saw.jpg,circular saw.mp3,Sierra circular
+clamp,clamp.jpg,clamp.mp3,abrazadera
+clarinet,clarinet.jpg,clarinet.mp3,clarinete
+clipboard,clipboard.jpg,clipboard.mp3,portapapeles
+cockroach,cockroach.jpg,cockroach.mp3,cucaracha
+coconut,coconut.jpg,coconut.mp3,Coco
+coffee,coffee.jpg,coffee.mp3,café
+coffee beans,coffee beans.jpg,coffee beans.mp3,granos de café
+coffee mug,coffee mug.jpg,coffee mug.mp3,taza de café
+coffee table,coffee table.jpg,coffee table.mp3,mesa de centro
+colander,colander.jpg,colander.mp3,colador
+colt,colt.jpg,colt.mp3,potro
+congas,congas.jpg,congas.mp3,Congas
+convertible,convertible.jpg,convertible.mp3,convertible
+cordless drill,cordless drill.jpg,cordless drill.mp3,taladro inalambrico
+corkscrew,corkscrew.jpg,corkscrew.mp3,sacacorchos
+corn,corn.jpg,corn.mp3,maíz
+corn chips,corn chips.jpg,corn chips.mp3,frituras de maíz
+corn on the cob,corn on the cob.jpg,corn on the cob.mp3,maíz en la mazorca
+corndog,corndog.jpg,corndog.mp3,corndog
+cow,cow.jpg,cow.mp3,vaca
+crab,crab.jpg,crab.mp3,cangrejo
+crate,crate.jpg,crate.mp3,caja
+cricket,cricket.jpg,cricket.mp3,Grillo
+crowbar,crowbar.jpg,crowbar.mp3,palanca
+cruise ship,cruise ship.jpg,cruise ship.mp3,crucero
+cutting board,cutting board.jpg,cutting board.mp3,tabla de cortar
+cyclist,cyclist.jpg,cyclist.mp3,ciclista
+deer(female),deer(female).jpg,deer(female).mp3,cierva
+deer(male),deer(male).jpg,deer(male).mp3,ciervo
+dishwasher,dishwasher.jpg,dishwasher.mp3,lavavajillas
+do pushups,do pushups.jpg,do pushups.mp3,hacer flexiones
+do sit-ups,do sit-ups.jpg,do sit-ups.mp3,hacer sentadillas
+do yoga,do yoga.jpg,do yoga.mp3,hacer yoga
+dog(female),dog(female).jpg,dog(female).mp3,perra
+dog(male),dog(male).jpg,dog(male).mp3,perro
+donkey(female),donkey(female).jpg,donkey(female).mp3,burra
+donkey(male),donkey(male).jpg,donkey(male).mp3,burro
+dragonfly,dragonfly.jpg,dragonfly.mp3,libélula
+dress,dress.jpg,dress.mp3,vestido
+dresser,dresser.jpg,dresser.mp3,vestidor
+dried tomatoes,dried tomatoes.jpg,dried tomatoes.mp3,tomates secos
+drill press,drill press.jpg,drill press.mp3,taladro de banco
+drive,drive.jpg,drive.mp3,conducir
+drum set,drum set.jpg,drum set.mp3,batería
+dryer,dryer.jpg,dryer.mp3,secadora
+duct tape,duct tape.jpg,duct tape.mp3,cinta adhesiva
+dump truck,dump truck.jpg,dump truck.mp3,camión de la basura
+egg beater,egg beater.jpg,egg beater.mp3,batidora de huevos
+eggplant,eggplant.jpg,eggplant.mp3,berenjena
+eggs,eggs.jpg,eggs.mp3,huevos
+electric bass,electric bass.jpg,electric bass.mp3,bajo eléctrico
+electric drill,electric drill.jpg,electric drill.mp3,taladro eléctrico
+electric guitar,electric guitar.jpg,electric guitar.mp3,guitarra electrica
+electric sander,electric sander.jpg,electric sander.mp3,lijadora eléctrica
+elephant,elephant.jpg,elephant.mp3,elefante
+envelope,envelope.jpg,envelope.mp3,sobre
+eraser,eraser.jpg,eraser.mp3,borrador
+ferret,ferret.jpg,ferret.mp3,hurón
+file folders,file folders.jpg,file folders.mp3,carpetas de archivos
+filing cabinet,filing cabinet.jpg,filing cabinet.mp3,Archivador
+fire engine,fire engine.jpg,fire engine.mp3,camion de bomberos
+fish,fish.jpg,fish.mp3,pez
+flashlight,flashlight.jpg,flashlight.mp3,Linterna
+flask,flask.jpg,flask.mp3,matraz
+floppy disk,floppy disk.jpg,floppy disk.mp3,disco flexible
+flute,flute.jpg,flute.mp3,flauta
+football,football.jpg,football.mp3,fútbol americano
+football helmet,football helmet.jpg,football helmet.mp3,casco de fútbol
+fork(female),fork(female).jpg,fork(female).mp3,tenedora
+fork(male),fork(male).jpg,fork(male).mp3,tenedor
+French fries,French fries.jpg,French fries.mp3,papas fritas
+French toast,French toast.jpg,French toast.mp3,tostada francesa
+frying pan,frying pan.jpg,frying pan.mp3,sartén
+garlic,garlic.jpg,garlic.mp3,ajo
+ginger,ginger.jpg,ginger.mp3,jengibre
+giraffe,giraffe.jpg,giraffe.mp3,jirafa
+glass,glass.jpg,glass.mp3,vaso
+glass,glass.jpg,glass.mp3,vaso
+goat(female),goat(female).jpg,goat(female).mp3,cabra
+goat(male),goat(male).jpg,goat(male).mp3,cabro
+golf ball,golf ball.jpg,golf ball.mp3,pelota de golf
+golf club,golf club.jpg,golf club.mp3,Club de Golf
+golfer,golfer.jpg,golfer.mp3,golfista
+gong,gong.jpg,gong.mp3,gong
+grape juice,grape juice.jpg,grape juice.mp3,jugo de uva
+grapes,grapes.jpg,grapes.mp3,uvas
+grasshopper,grasshopper.jpg,grasshopper.mp3,saltamontes
+grater,grater.jpg,grater.mp3,rallador
+green beans,green beans.jpg,green beans.mp3,judías verdes
+groundhog,groundhog.jpg,groundhog.mp3,marmota
+guitar,guitar.jpg,guitar.mp3,guitarra
+gymnast,gymnast.jpg,gymnast.mp3,gimnasta
+hammer,hammer.jpg,hammer.mp3,martillo
+hand drill,hand drill.jpg,hand drill.mp3,taladro de mano
+handsaw,handsaw.jpg,handsaw.mp3,Sierra de mano
+harmonica(female),harmonica(female).jpg,harmonica(female).mp3,harmónica
+harmonica(male),harmonica(male).jpg,harmonica(male).mp3,harmónico
+harp,harp.jpg,harp.mp3,arpa
+hat,hat.jpg,hat.mp3,sombrero
+helicopter,helicopter.jpg,helicopter.mp3,helicóptero
+hen(female),hen(female).jpg,hen(female).mp3,gallina
+hen(male),hen(male).jpg,hen(male).mp3,la hembra
+hippopotamus,hippopotamus.jpg,hippopotamus.mp3,hipopótamo
+hockey player,hockey player.jpg,hockey player.mp3,jugador de hockey
+hockey skates,hockey skates.jpg,hockey skates.mp3,patines de hockey
+hole punch,hole punch.jpg,hole punch.mp3,perforador
+horse,horse.jpg,horse.mp3,caballo
+hot chocolate,hot chocolate.jpg,hot chocolate.mp3,chocolate caliente
+hot dog,hot dog.jpg,hot dog.mp3,Hot dog
+iced tea,iced tea.jpg,iced tea.mp3,te helado
+inline skate,inline skate.jpg,inline skate.mp3,patín en línea
+inline skater,inline skater.jpg,inline skater.mp3,patinador en línea
+jacket,jacket.jpg,jacket.mp3,chaqueta
+jar(female),jar(female).jpg,jar(female).mp3,frasca
+jar(male),jar(male).jpg,jar(male).mp3,frasco
+jigsaw,jigsaw.jpg,jigsaw.mp3,rompecabezas
+jog,jog.jpg,jog.mp3,empujoncito
+jug,jug.jpg,jug.mp3,jarra
+jump,jump.jpg,jump.mp3,saltar
+jump rope,jump rope.jpg,jump rope.mp3,cuerda de salto
+kangaroo,kangaroo.jpg,kangaroo.mp3,canguro
+kick,kick.jpg,kick.mp3,patada
+kiwis,kiwis.jpg,kiwis.mp3,kiwis
+knife,knife.jpg,knife.mp3,cuchillo
+knife,knife.jpg,knife.mp3,cuchillo
+ladle,ladle.jpg,ladle.mp3,cucharón
+ladybugs,ladybugs.jpg,ladybugs.mp3,mariquitas
+lamb(female),lamb(female).jpg,lamb(female).mp3,cordera
+lamb(male),lamb(male).jpg,lamb(male).mp3,cordero
+lamp,lamp.jpg,lamp.mp3,lámpara
+lawn mower,lawn mower.jpg,lawn mower.mp3,cortacésped
+lemons,lemons.jpg,lemons.mp3,limones
+lemur,lemur.jpg,lemur.mp3,lémur
+leopard,leopard.jpg,leopard.mp3,leopardo
+lettuce,lettuce.jpg,lettuce.mp3,lechuga
+level,level.jpg,level.mp3,nivel
+lift weights,lift weights.jpg,lift weights.mp3,Levantar pesas
+limes,limes.jpg,limes.mp3,limas
+lion,lion.jpg,lion.mp3,león
+lobster,lobster.jpg,lobster.mp3,langosta
+magnifying glass,magnifying glass.jpg,magnifying glass.mp3,lupa
+mangos,mangos.jpg,mangos.mp3,mangos
+maracas,maracas.jpg,maracas.mp3,maracas
+masher,masher.jpg,masher.mp3,prensa de patatas
+measuring tape,measuring tape.jpg,measuring tape.mp3,cinta métrica
+meat,meat.jpg,meat.mp3,carne
+metronome,metronome.jpg,metronome.mp3,metrónomo
+microwave oven,microwave oven.jpg,microwave oven.mp3,horno microondas
+milk,milk.jpg,milk.mp3,leche
+millipede,millipede.jpg,millipede.mp3,milpiés
+minivan,minivan.jpg,minivan.mp3,minivan
+monkey(female),monkey(female).jpg,monkey(female).mp3,mona
+monkey(male),monkey(male).jpg,monkey(male).mp3,mono
+motorcycle,motorcycle.jpg,motorcycle.mp3,motocicleta
+mountain goat,mountain goat.jpg,mountain goat.mp3,cabra de montaña
+mountain lion,mountain lion.jpg,mountain lion.mp3,León de montaña
+muffin tray,muffin tray.jpg,muffin tray.mp3,bandeja de muffin
+mushrooms,mushrooms.jpg,mushrooms.mp3,hongos
+music stand,music stand.jpg,music stand.mp3,atril
+napkin dispenser,napkin dispenser.jpg,napkin dispenser.mp3,dispensador de servilletas
+nectarines,nectarines.jpg,nectarines.mp3,nectarinas
+notebook,notebook.jpg,notebook.mp3,computadora portátil
+nuts,nuts.jpg,nuts.mp3,nueces
+nuts and bolts,nuts and bolts.jpg,nuts and bolts.mp3,tuercas y tornillos
+onion,onion.jpg,onion.mp3,cebolla
+orange juice,orange juice.jpg,orange juice.mp3,zumo de naranja
+oranges,oranges.jpg,oranges.mp3,naranjas
+oven mitts,oven mitts.jpg,oven mitts.mp3,guantes de cocina
+packing tape,packing tape.jpg,packing tape.mp3,cinta de embalaje
+pancakes,pancakes.jpg,pancakes.mp3,panqueques
+pants,pants.jpg,pants.mp3,pantalones
+paper clip,paper clip.jpg,paper clip.mp3,clip de papel
+paring knife,paring knife.jpg,paring knife.mp3,cuchillo de cocina
+peaches,peaches.jpg,peaches.mp3,duraznos
+peanuts,peanuts.jpg,peanuts.mp3,miseria
+pears,pears.jpg,pears.mp3,peras
+peas,peas.jpg,peas.mp3,guisantes
+peeler,peeler.jpg,peeler.mp3,policía
+pen,pen.jpg,pen.mp3,bolígrafo
+pencils,pencils.jpg,pencils.mp3,lápices
+peppers,peppers.jpg,peppers.mp3,pimientos
+piano,piano.jpg,piano.mp3,piano
+pickles,pickles.jpg,pickles.mp3,pepinillos
+pickup truck,pickup truck.jpg,pickup truck.mp3,camioneta
+pineapple,pineapple.jpg,pineapple.mp3,piña
+pipe cutter,pipe cutter.jpg,pipe cutter.mp3,Cortatubos
+pipe wrench,pipe wrench.jpg,pipe wrench.mp3,llave de tubo
+pitcher(female),pitcher(female).jpg,pitcher(female).mp3,lanzadora
+pitcher(male),pitcher(male).jpg,pitcher(male).mp3,lanzador
+pizza,pizza.jpg,pizza.mp3,pizza
+pizza cutter,pizza cutter.jpg,pizza cutter.mp3,cortador de pizza
+plate,plate.jpg,plate.mp3,lámina
+play baseball,play baseball.jpg,play baseball.mp3,jugar beisbol
+play basketball,play basketball.jpg,play basketball.mp3,jugar baloncesto
+play football,play football.jpg,play football.mp3,jugar fútbol
+play golf,play golf.jpg,play golf.mp3,jugar al golf
+play golf,play golf.jpg,play golf.mp3,jugar al golf
+play hockey,play hockey.jpg,play hockey.mp3,jugar hockey
+play soccer,play soccer.jpg,play soccer.mp3,jugar fútbol
+play tennis,play tennis.jpg,play tennis.mp3,jugar tenis
+play volleyball,play volleyball.jpg,play volleyball.mp3,jugar voleibol
+plums,plums.jpg,plums.mp3,ciruelas
+plunger,plunger.jpg,plunger.mp3,émbolo
+polar bear,polar bear.jpg,polar bear.mp3,oso polar
+police car,police car.jpg,police car.mp3,coche de policía
+pomegranate,pomegranate.jpg,pomegranate.mp3,granada
+pot,pot.jpg,pot.mp3,maceta
+potatoes,potatoes.jpg,potatoes.mp3,papas
+praying mantis,praying mantis.jpg,praying mantis.mp3,Mantis religiosa
+pudding,pudding.jpg,pudding.mp3,pudín
+pumpkin,pumpkin.jpg,pumpkin.mp3,calabaza
+purse,purse.jpg,purse.mp3,cartera
+rabbit(female),rabbit(female).jpg,rabbit(female).mp3,coneja
+rabbit(male),rabbit(male).jpg,rabbit(male).mp3,conejo
+radishes,radishes.jpg,radishes.mp3,rábanos
+raspberries,raspberries.jpg,raspberries.mp3,frambuesas
+refrigerator,refrigerator.jpg,refrigerator.mp3,refrigerador
+rhinoceros,rhinoceros.jpg,rhinoceros.mp3,rinoceronte
+ride a bicycle,ride a bicycle.jpg,ride a bicycle.mp3,montar en bicicleta
+ride a skateboard,ride a skateboard.jpg,ride a skateboard.mp3,Monta una patineta
+rollerblade,rollerblade.jpg,rollerblade.mp3,rodillo
+rolling pin,rolling pin.jpg,rolling pin.mp3,rodillo
+rooster,rooster.jpg,rooster.mp3,gallo
+rubber bands,rubber bands.jpg,rubber bands.mp3,bandas de goma
+rug,rug.jpg,rug.mp3,alfombra
+run,run.jpg,run.mp3,correr
+RV,RV.jpg,RV.mp3,RV
+salt and pepper shakers,salt and pepper shakers.jpg,salt and pepper shakers.mp3,saltadores de sal y pimienta
+sandals,sandals.jpg,sandals.mp3,sandalias
+sandwich,sandwich.jpg,sandwich.mp3,sándwich
+sardines,sardines.jpg,sardines.mp3,sardinas
+sauce pan,sauce pan.jpg,sauce pan.mp3,salsa
+sausage,sausage.jpg,sausage.mp3,embutido
+saxophone,saxophone.jpg,saxophone.mp3,saxofón
+school bus,school bus.jpg,school bus.mp3,autobús escolar
+scissors,scissors.jpg,scissors.mp3,tijeras
+scorpion,scorpion.jpg,scorpion.mp3,escorpión
+scotch tape,scotch tape.jpg,scotch tape.mp3,Cinta adhesiva
+scraper,scraper.jpg,scraper.mp3,raspador
+screw eyes,screw eyes.jpg,screw eyes.mp3,ojos de atornillado
+screwdrivers,screwdrivers.jpg,screwdrivers.mp3,destornilladores
+scuba diver,scuba diver.jpg,scuba diver.mp3,buzo
+sheep,sheep.jpg,sheep.mp3,oveja
+shirt,shirt.jpg,shirt.mp3,camisa
+shoes,shoes.jpg,shoes.mp3,zapatos
+shorts,shorts.jpg,shorts.mp3,bermudas
+shrimp,shrimp.jpg,shrimp.mp3,camarón
+skateboard,skateboard.jpg,skateboard.mp3,patineta
+skateboard,skateboard.jpg,skateboard.mp3,patineta
+skateboarder,skateboarder.jpg,skateboarder.mp3,skater
+ski,ski.jpg,ski.mp3,esquí
+skier(female),skier(female).jpg,skier(female).mp3,esquiadora
+skier(male),skier(male).jpg,skier(male).mp3,esquiador
+skirt,skirt.jpg,skirt.mp3,falda
+snake,snake.jpg,snake.mp3,serpiente
+snare drum,snare drum.jpg,snare drum.mp3,trampa
+sneakers,sneakers.jpg,sneakers.mp3,zapatillas
+snowboard,snowboard.jpg,snowboard.mp3,tabla de snowboard
+snowboard,snowboard.jpg,snowboard.mp3,tabla de snowboard
+snowboarder,snowboarder.jpg,snowboarder.mp3,snowboarder
+snowmobile,snowmobile.jpg,snowmobile.mp3,motonieve
+soccer ball,soccer ball.jpg,soccer ball.mp3,balón de fútbol
+soccer player,soccer player.jpg,soccer player.mp3,jugador de fútbol
+socks,socks.jpg,socks.mp3,medias
+soda,soda.jpg,soda.mp3,soda
+sofa,sofa.jpg,sofa.mp3,sofá
+spaghetti,spaghetti.jpg,spaghetti.mp3,espaguetis
+spider,spider.jpg,spider.mp3,araña
+spinach,spinach.jpg,spinach.mp3,espinaca
+spoon,spoon.jpg,spoon.mp3,cuchara
+sports car,sports car.jpg,sports car.mp3,coche deportivo
+squid,squid.jpg,squid.mp3,calamar
+staple gun,staple gun.jpg,staple gun.mp3,grapadora
+staple remover,staple remover.jpg,staple remover.mp3,quitagrapas
+stapler,stapler.jpg,stapler.mp3,engrapadora
+staples,staples.jpg,staples.mp3,grapas
+stove,stove.jpg,stove.mp3,cocina
+strawberries,strawberries.jpg,strawberries.mp3,fresas
+stretch,stretch.jpg,stretch.mp3,estirar
+surf,surf.jpg,surf.mp3,navegar
+surfboard,surfboard.jpg,surfboard.mp3,tabla de surf
+surfer,surfer.jpg,surfer.mp3,tablista
+sushi,sushi.jpg,sushi.mp3,Sushi
+SUV,SUV.jpg,SUV.mp3,SUV
+sweater,sweater.jpg,sweater.mp3,suéter
+swim,swim.jpg,swim.mp3,nadar
+swimmer(female),swimmer(female).jpg,swimmer(female).mp3,nadadora
+swimmer(male),swimmer(male).jpg,swimmer(male).mp3,nadador
+table,table.jpg,table.mp3,mesa
+table saw,table saw.jpg,table saw.mp3,Sierra de mesa
+tacos,tacos.jpg,tacos.mp3,tacos
+take a taxi,take a taxi.jpg,take a taxi.mp3,toma un taxi
+take the train,take the train.jpg,take the train.mp3,tomar el tren
+tambourine,tambourine.jpg,tambourine.mp3,pandereta
+tape dispenser,tape dispenser.jpg,tape dispenser.mp3,dispensador de cinta
+tarantula,tarantula.jpg,tarantula.mp3,tarántula
+tea,tea.jpg,tea.mp3,té
+teacup and saucer,teacup and saucer.jpg,teacup and saucer.mp3,taza de té y platillo
+teapot,teapot.jpg,teapot.mp3,tetera
+television,television.jpg,television.mp3,televisión
+tennis ball,tennis ball.jpg,tennis ball.mp3,Pelota de tenis
+tennis player,tennis player.jpg,tennis player.mp3,tenista
+tennis racket,tennis racket.jpg,tennis racket.mp3,raqueta de tenis
+thumbtack,thumbtack.jpg,thumbtack.mp3,chinche
+tie,tie.jpg,tie.mp3,atar
+tiger,tiger.jpg,tiger.mp3,tigre
+toast,toast.jpg,toast.mp3,tostada
+toaster,toaster.jpg,toaster.mp3,tostadora
+toilet,toilet.jpg,toilet.mp3,baño
+tomatoes,tomatoes.jpg,tomatoes.mp3,Tomates
+tomatoes,tomatoes.jpg,tomatoes.mp3,Tomates
+tongs,tongs.jpg,tongs.mp3,tenazas
+train,train.jpg,train.mp3,tren
+trombone,trombone.jpg,trombone.mp3,trombón
+trowel,trowel.jpg,trowel.mp3,paleta
+trumpet,trumpet.jpg,trumpet.mp3,trompeta
+t-shirt,t-shirt.jpg,t-shirt.mp3,camiseta
+tuba,tuba.jpg,tuba.mp3,tuba
+turkey(female),turkey(female).jpg,turkey(female).mp3,pava
+turkey(male),turkey(male).jpg,turkey(male).mp3,pavo
+van,van.jpg,van.mp3,camioneta
+violin,violin.jpg,violin.mp3,violín
+vise,vise.jpg,vise.mp3,tornillo
+vise-grips,vise-grips.jpg,vise-grips.mp3,challe
+volleyball,volleyball.jpg,volleyball.mp3,vóleibol
+volleyball player,volleyball player.jpg,volleyball player.mp3,jugador de voleibol
+waffle,waffle.jpg,waffle.mp3,gofre
+walk,walk.jpg,walk.mp3,caminar
+walking stick,walking stick.jpg,walking stick.mp3,bastón
+wallet,wallet.jpg,wallet.mp3,billetera
+washer,washer.jpg,washer.mp3,lavadora
+wasp,wasp.jpg,wasp.mp3,avispa
+water,water.jpg,water.mp3,agua
+watermelon,watermelon.jpg,watermelon.mp3,sandía
+weight lifter,weight lifter.jpg,weight lifter.mp3,levantador de pesas
+whisk,whisk.jpg,whisk.mp3,batidor
+wine glass,wine glass.jpg,wine glass.mp3,Copa de vino
+wrench,wrench.jpg,wrench.mp3,llave inglesa
+wrenches,wrenches.jpg,wrenches.mp3,llaves
+xylophone,xylophone.jpg,xylophone.mp3,xilófono
+zebra,zebra.jpg,zebra.mp3,cebra
+zucchini,zucchini.jpg,zucchini.mp3,calabacín
