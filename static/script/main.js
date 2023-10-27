@@ -10,6 +10,9 @@ socket.on('connect', () => {
 });
 
 socket.on('receive_data', (data) => {
+    if(data.key == 'interval'){
+        data_output.clear();
+    }
     if(!data_output.has(data.key)){
         data_output.set(data.key,[]);
     }
@@ -29,13 +32,12 @@ function start() {
 function mode_training(){
     document.getElementById("count_page").style.display = "none";
     document.getElementById("train_page").style.display = "block";
-    Data_Output_Train(17,2000,() => {
+    Data_Output_Train(data_output.get("data_len")[0],data_output.get("interval")[0],() => {
             document.getElementById("train_page").style.display = "none";
             document.getElementById("train_done_page").style.display = "block";
         },
         document.getElementById('Output_Image'),
-        document.getElementById('Output_Text'),
-        document.getElementById('Output_Audio')
+        document.getElementById('Output_Text')
     );
 }
 function mode_validate(){
@@ -44,7 +46,7 @@ function mode_validate(){
     document.getElementById("train_done_page").style.display = "none";
     document.getElementById("valid_page").style.display = "block";
     document.getElementById("result_page").style.display = "none";
-    Data_Output_Validation(17,2000,()=>{
+    Data_Output_Validation(data_output.get("data_len")[0],1000,()=>{
         document.getElementById("valid_page").style.display = "none";
         document.getElementById("result_page").style.display = "block";
     });
@@ -62,7 +64,7 @@ function Countdown(second, textbox, callbackfunc) {
     }, 300);
 }
 
-function Data_Output_Train(index, interval, callbackfunc, image_box, textbox, audio){
+function Data_Output_Train(index, interval, callbackfunc, image_box, textbox){
     if(index < 0)
     {
         callbackfunc();
@@ -70,12 +72,9 @@ function Data_Output_Train(index, interval, callbackfunc, image_box, textbox, au
     }
     image_box.src = `data:image/jpeg;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(data_output.get("training")[index].image)))}`;
     textbox.textContent = data_output.get("training")[index].word;
-    audio.src = `data:audio/mpeg;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(data_output.get("training")[index].audio)))}`;
-    audio.currentTime = 0;
-    audio.play();
 
     setTimeout(function() {
-        Data_Output_Train(index-1, interval, callbackfunc,image_box, textbox, audio)
+        Data_Output_Train(index-1, interval, callbackfunc,image_box, textbox)
     }, interval);
 }
 
