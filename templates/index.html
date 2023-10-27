@@ -4,46 +4,50 @@
     <meta charset='utf-8'>
     <title>(FANCY NAME NEEDED)</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
-    <div id="start_page" class="container">
-        <button onclick="start()">Start</button>
-    </div>
+    <div class="main_container">
+        <div id="start_page" class="container" style="display: block;">
+            <h1 class="display-1 fw-bold">Let's test your Espanol!!!</h1>
+            <button onclick="start()" class="btn btn-primary">Start</button>
+        </div>
 
-    <div id="count_page" class="container" style="display: none;">
-        <h1 id="count_down"></h1>
-    </div>
+        <div id="count_page" class="container" style="display: none;">
+            <h1 id="count_down"></h1>
+        </div>
 
-    <div id="train_page" class="container" style="display: none;">
-        <img src="" class="image" alt="image" id="Output_Image"/>
-        <audio src="" id="Output_Audio"></audio>
-        <div class="text" id="Output_Text">
-            <h1></h1>
+        <div id="train_page" class="container" style="display: none;">
+            <img src="" class="image" alt="image" id="Output_Image"/>
+            <audio src="" id="Output_Audio"></audio>
+            <div class="text" id="Output_Text">
+                <h1></h1>
+            </div>
+        </div>
+
+        <div id="train_done_page" class="container" style="display: none;">
+            <button onclick="mode_validate()" class="btn btn-primary">Start_Validate</button>
+        </div>
+
+        <div id="valid_page" class="container" style="display: none;">
+            <img src="" class="image" alt="image" id="Output_Image2"/>
+            <button onclick="answer_selection('btn1')" type="button" id="btn1" class="btn btn-light rounded-pill px-3"></button>
+            <button onclick="answer_selection('btn2')" type="button" id="btn2" class="btn btn-light rounded-pill px-3"></button>
+            <button onclick="answer_selection('btn3')" type="button" id="btn3" class="btn btn-light rounded-pill px-3"></button>
+        </div>
+        
+        <div id="result_page" class="container" style="display: none;">
+            <div id='result_table'></div>
+            <button onclick="start()" class="btn btn-primary">Retry</button>
         </div>
     </div>
-
-    <div id="train_done_page" class="container" style="display: none;">
-        <button onclick="mode_validate()">Start_Validate</button>
-    </div>
-
-    <div id="valid_page" class="container" style="display: none;">
-        <img src="" class="image" alt="image" id="Output_Image2"/>
-        <button onclick="answer_selection('btn1')" type="button" id="btn1"></button>
-        <button onclick="answer_selection('btn2')" type="button" id="btn2"></button>
-        <button onclick="answer_selection('btn3')" type="button" id="btn3"></button>
-    </div>
-    
-    <div id="result_page" class="container" style="display: none;">
-        <div id='result_table'></div>
-        <button onclick="start()">Retry</button>
-    </div>
-
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    <script src="{{ url_for('static', filename='script/main.js') }}"></script>
 </body>
-
-<script src="{{ url_for('static', filename='script/main.js') }}"></script>
 
 </html>

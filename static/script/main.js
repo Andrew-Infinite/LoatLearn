@@ -23,6 +23,54 @@ socket.on('receive_data', (data) => {
     data_output.get(data.key).push(data.value);
 });
 
+addEventListener("keydown", e => {
+    if (document.getElementById("valid_page").style.display == "block")
+    {
+        if (e.key == "q" || e.key == "Q")
+        {
+            answer_selection('btn1');
+            document.getElementById("btn1").style.border = "none";
+        }
+        if (e.key == "w" || e.key == "W")
+        {
+            answer_selection('btn2');
+            document.getElementById("btn2").style.border = "none";
+        }
+        if (e.key == "e" || e.key == "E")
+        {
+            answer_selection('btn3');
+            document.getElementById("btn3").style.border = "none";
+        }
+    }
+    if (e.key == "Enter" || e.key == " ")
+    {
+        if (document.getElementById("result_page").style.display == "block" 
+            || document.getElementById("start_page").style.display == "block")
+        {
+            start();
+        }
+        if (document.getElementById("train_done_page").style.display == "block")
+        {
+            mode_validate();
+        }
+    }
+})
+
+addEventListener("keyup", e => {
+    if (e.key == "q" || e.key == "Q")
+    {
+        document.getElementById("btn1").style.border = "1px solid grey";
+    }
+    if (e.key == "w" || e.key == "W")
+    {
+        document.getElementById("btn2").style.border = "1px solid grey";
+    }
+    if (e.key == "e" || e.key == "E")
+    {
+        document.getElementById("btn3").style.border = "1px solid grey";
+    }
+})
+
 function start() {
     ans = []
     socket.emit('request_data');
@@ -145,10 +193,14 @@ function Display_Result(answer_list){
     let cell2 = row.insertCell(1);
     let cell3 = row.insertCell(2);
     let cell4 = row.insertCell(3);
-    cell1.innerHTML = "No.";
-    cell2.innerHTML = "Correct Answer";
-    cell3.innerHTML = "Your Answer";
-    cell4.innerHTML = "Result";
+    cell1.innerHTML = "NO.";
+    cell2.innerHTML = "CORRECT ANSWER";
+    cell3.innerHTML = "YOUR ANSWER";
+    cell4.innerHTML = "RESULT";
+    cell1.classList.add("subject");
+    cell2.classList.add("subject");
+    cell3.classList.add("subject");
+    cell4.classList.add("subject");
     answer_list.forEach(function(answer) {
         row = container.insertRow();
         cell1 = row.insertCell(0);
@@ -161,10 +213,12 @@ function Display_Result(answer_list){
         if (answer[0] == answer[1])
         {
             cell4.innerHTML = 'RIGHT';
+            cell4.classList.add("correct");
             corrects = corrects + 1;
         }
         else
         {
+            cell4.classList.add("wrong");
             cell4.innerHTML = 'WRONG';
         }
     });
