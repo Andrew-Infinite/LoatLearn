@@ -229,3 +229,22 @@ function Display_Result(answer_list){
     container_div.append(result);
     container_div.append(hr);
 }
+function validateLogin() {
+    // Get the values from the username and password input fields
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    // Check if both fields are filled
+    if (username.trim() !== "" && password.trim() !== "") {
+        // Hide the login page
+        document.getElementById("login").style.display = "none";
+
+        // Show the next page
+        document.getElementById("start_page").style.display = "block";
+    } else {
+        // Display an error message if fields are not filled
+        const errorMessage = document.getElementById("error-message");
+        errorMessage.textContent = "Please enter both Intra ID and ur full name.";
+        errorMessage.style.display = "block";
+    }
+}

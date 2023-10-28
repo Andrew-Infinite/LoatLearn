@@ -11,7 +11,16 @@
 
 <body>
     <div class="main_container">
-        <div id="start_page" class="container" style="display: block;">
+        <div id="login" class="container" style="display: block;">
+            <h1>LoatLearn Signup</h1>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Intra ID" required>
+                <input type="password" id="password" placeholder="Full Name" required>
+                <button id="login-button" type="button" onclick="validateLogin()">Login</button>
+            </form>
+            <div id="error-message" class="hidden"></div>
+        </div>
+        <div id="start_page" class="container" style="display: none;">
             <h1 class="display-1 fw-bold">Let's test your Espanol!!!</h1>
             <button onclick="start()" class="btn btn-primary">Start</button>
         </div>

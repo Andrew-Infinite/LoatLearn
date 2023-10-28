@@ -15,3 +15,4 @@ function changeContent() {
     imageElement.src = "../asset/cat.jpg";
     textElement.querySelector("h1").textContent = "cat";
 }
+
