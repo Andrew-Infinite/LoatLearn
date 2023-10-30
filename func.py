@@ -6,6 +6,10 @@ import random
 
 asset_path = 'static/asset/'
 label_path = asset_path + 'label.txt'
+number_of_data = 15
+number_of_ans = 5
+
+number_of_ans = number_of_ans - 1
 
 # potential issue, latency of connection causes inconsistent display speed, might not be important to UX.
 # Haven't done validation part
@@ -13,12 +17,11 @@ label_path = asset_path + 'label.txt'
 # user log in UI, only for premium user
 # each user have their own set of data, so front_end should buffer the image send, and use for validation.
 
-def send_image(socketio,label):
+def send_image(socketio, label):
     train_obj, val_obj = data_selector(label)
 
-    socketio.emit('receive_data', {'key': 'interval','value':500})
-    # socketio.emit('receive_data', {'key': 'data_len','value':(len(train_obj)-1)})
-    socketio.emit('receive_data', {'key': 'data_len','value':49})
+    socketio.emit('receive_data', {'key': 'interval','value':100})
+    socketio.emit('receive_data', {'key': 'data_len','value':(len(train_obj)-1)})
 
     for data in train_obj:
         with open(asset_path + data['image'], 'rb') as image, open (asset_path + data['audio'],'rb') as audio:
@@ -48,22 +51,24 @@ def data_selector(label):
     # a mix of words which user is not good with, or mix of words which general public is not good with.
     train_list = []
     val_list = []
-    for key,value in label.items():
-        train_list.append(value)
-    for key,value in label.items():
+
+    val = list(label.values())
+    random.shuffle(val)
+    for x in range(number_of_data):
+        train_list.append(val[x])
+        val_list.append([val[x]['es']])
+        print(val[x]['es'])
+    print(" ")
+    for x in range(number_of_data):
         
-        count = 0
-        re = list(label.values())
-        options = [value['es']]
-        random.shuffle(re)
-        for x in range(len(re)):
-            if(re[x]['es'] != value['es']):
-                count = count + 1
-                options.append(re[x]['es'])
-            if count == 2:
-                break
-        
-        print(options)
-        random.shuffle(options)
-        val_list.append(options)
+        upper_bound = number_of_data + 10 if(number_of_data + 10 < len(label)) else len(label)
+        try:
+            unique_selection = random.sample(range(0, x), number_of_ans)
+        except:
+            unique_selection = []
+        unique_selection = unique_selection + random.sample(range(x+1, upper_bound), number_of_ans)
+        unique_selection = random.sample(unique_selection,number_of_ans)
+        for num in unique_selection:
+            val_list[x].append(val[num]['es'])
+
     return train_list,val_list

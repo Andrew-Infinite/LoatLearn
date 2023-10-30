@@ -6,6 +6,7 @@ const socket = io();
 const data_output = new Map();
 let ans = [];
 let index2 = 0;
+let isFirst = 1;
 let trial = 0;
 
 socket.on('connect', () => {
@@ -41,6 +42,16 @@ addEventListener("keydown", e => {
             answer_selection('btn3');
             document.getElementById("btn3").style.border = "none";
         }
+        if (e.key == "r" || e.key == "R")
+        {
+            answer_selection('btn4');
+            document.getElementById("btn4").style.border = "none";
+        }
+        if (e.key == "t" || e.key == "T")
+        {
+            answer_selection('btn5');
+            document.getElementById("btn5").style.border = "none";
+        }
     }
     if (e.key == "Enter" || e.key == " ")
     {
@@ -69,11 +80,22 @@ addEventListener("keyup", e => {
     {
         document.getElementById("btn3").style.border = "1px solid grey";
     }
+    if (e.key == "r" || e.key == "R")
+    {
+        document.getElementById("btn4").style.border = "1px solid grey";
+    }
+    if (e.key == "t" || e.key == "T")
+    {
+        document.getElementById("btn5").style.border = "1px solid grey";
+    }
 })
 
 function start() {
     ans = []
-    socket.emit('request_data');
+    if (isFirst == 1){
+        isFirst = 0;
+        socket.emit('request_data');
+    }
     document.getElementById("start_page").style.display = "none";
     document.getElementById("count_page").style.display = "block";
     document.getElementById("train_page").style.display = "none";
@@ -159,9 +181,12 @@ function Data_Output_Validation(index){
         return;
     }
     document.getElementById('Output_Image2').src = `data:image/jpeg;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(data_output.get("training")[data_output.get("data_len")[0]-index].image)))}`;
+    durstenfeldShuffle(data_output.get("validation")[data_output.get("data_len")[0]-index]);
     document.getElementById('btn1').innerText  = data_output.get("validation")[data_output.get("data_len")[0]-index][0];
     document.getElementById('btn2').innerText  = data_output.get("validation")[data_output.get("data_len")[0]-index][1];
     document.getElementById('btn3').innerText  = data_output.get("validation")[data_output.get("data_len")[0]-index][2];
+    document.getElementById('btn4').innerText  = data_output.get("validation")[data_output.get("data_len")[0]-index][3];
+    document.getElementById('btn5').innerText  = data_output.get("validation")[data_output.get("data_len")[0]-index][4];
 }
 
 function answer_selection(whoami){
@@ -229,6 +254,7 @@ function Display_Result(answer_list){
     container_div.append(result);
     container_div.append(hr);
 }
+
 function validateLogin() {
     // Get the values from the username and password input fields
     const username = document.getElementById("username").value;
@@ -246,5 +272,12 @@ function validateLogin() {
         const errorMessage = document.getElementById("error-message");
         errorMessage.textContent = "Please enter both Intra ID and ur full name.";
         errorMessage.style.display = "block";
+    }
+}
+
+function durstenfeldShuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
     }
 }

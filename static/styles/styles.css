@@ -45,10 +45,10 @@
     font-weight: bolder;
 }
 
-#btn1, #btn2, #btn3 {
+#btn1, #btn2, #btn3, #btn4, #btn5 {
     border: 1px solid grey;
 }
 
-#btn1:hover, #btn2:hover, #btn3:hover {
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover {
     border: none;
 }
