@@ -20,7 +20,7 @@ number_of_ans = number_of_ans - 1
 def send_image(socketio, label):
     train_obj, val_obj = data_selector(label)
 
-    socketio.emit('receive_data', {'key': 'interval','value':100})
+    socketio.emit('receive_data', {'key': 'interval','value':500})
     socketio.emit('receive_data', {'key': 'data_len','value':(len(train_obj)-1)})
 
     for data in train_obj:
