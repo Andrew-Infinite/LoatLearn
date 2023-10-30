@@ -8,6 +8,7 @@ let ans = [];
 let index2 = 0;
 let isFirst = 1;
 let trial = 0;
+let username;
 
 socket.on('connect', () => {
     console.log('Connected to the server');
@@ -253,11 +254,15 @@ function Display_Result(answer_list){
     container_div.append(container);
     container_div.append(result);
     container_div.append(hr);
+    socket.emit('send_result', {
+        'NAME': username, 
+        'TRIAL': trial, 
+        'CORRECT': corrects});
 }
 
 function validateLogin() {
     // Get the values from the username and password input fields
-    const username = document.getElementById("username").value;
+    username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
     // Check if both fields are filled
